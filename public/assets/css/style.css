@@ -1,0 +1,145 @@
+/* style.css */
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Untuk h1 */
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem; /* Ukuran font lebih besar untuk h1 */
+    margin-bottom: 20px; /* Memberikan jarak di bawah */
+}
+
+/* Untuk h2 */
+h2 {
+    color: black; /* Ganti warna sesuai dengan kebutuhan */
+    text-align: center;
+    font-size: 1.75rem; /* Ukuran font lebih kecil untuk h2 */
+    margin-bottom: 15px; /* Memberikan jarak di bawah */
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Tentang Kami */
+.about-us {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.about-image {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+    flex: 1;
+    max-width: 500px;
+    line-height: 1.6;
+}
+
+.about-text h2 {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.about-text p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.about-text p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Additional styles */
+.card {
+    width: 100%; /* Menyesuaikan dengan kolom */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Tambahan jarak antar baris */
+}
+
+.card img {
+    width: 100%; /* Gambar memenuhi lebar kartu */
+    height: 200px; /* Tinggi konsisten */
+    object-fit: cover; /* Potong gambar untuk menjaga proporsi */
+    border-bottom: 1px solid #ddd; /* Tambahkan pembatas jika diperlukan */
+}
+
+.card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-body h5 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: green;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: green;
+}
+
+.categories .row {
+    display: flex;
+    flex-wrap: wrap; /* Membungkus elemen ke baris berikutnya */
+    gap: 20px; /* Jarak antar elemen */
+    justify-content: space-between; /* Menyebarkan elemen secara merata */
+}
+
+.categories .col-4 {
+    flex: 0 0 calc(25% - 20px); /* 25% lebar per elemen untuk 4 elemen per baris */
+    max-width: calc(25% - 20px);
+    box-sizing: border-box; /* Menyertakan padding dan border dalam lebar */
+}
+
+
